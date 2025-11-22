@@ -40,18 +40,22 @@ include_directories(
 )
 
 set(QT_SOURCES
-#     mainwindow.cpp
+	notepad.cpp
+	mainwindow.cpp
     main.cpp)
 
 # このファイルだけUIC
-# qt_wrap_ui(QT_SOURCES mainwindow.ui)
+qt_wrap_ui(QT_SOURCES notepad.ui)
 
 
 # mocで処理、結果をQT_SOURCESに加える
-#qt_wrap_cpp(QT_SOURCES
-# mainwindow.h
-#)
+qt_wrap_cpp(QT_SOURCES
+ notepad.h
+)
 
+qt_add_resources(QT_SOURCES
+  notepad.qrc
+)
 
 add_executable(HelloQt5Vcpkg
 	${QT_SOURCES}

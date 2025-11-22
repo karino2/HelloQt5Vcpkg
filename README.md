@@ -1,6 +1,6 @@
 # minimum project for vcpkg-Qt with cmake
 
-main.cpp is copied from https://code.qt.io/cgit/qt/qtbase.git/plain/examples/widgets/tutorials/gettingStarted/gsQt/part1/main.cpp?h=5.15
+all sources and resources is copied from qtbase notepad examples from [notepad « tutorials « widgets « examples - qt/qtbase.git - Qt Base (Core, Gui, Widgets, Network, ...)](https://code.qt.io/cgit/qt/qtbase.git/tree/examples/widgets/tutorials/notepad?h=5.15)
 
 
 ### setup
